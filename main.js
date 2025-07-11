@@ -46,7 +46,7 @@ app.get('/twitter',(req,res)=>{
   res.send('rohail khan')
 }),
 app.get('/tube',(req,res)=>{
-  res.send('rohail khan chai wala')
+  res.send('<h1>rohail khan chai wala</h2>')
 }),
 app.get('/github',(req , res) =>{
   res.json(githubData)
